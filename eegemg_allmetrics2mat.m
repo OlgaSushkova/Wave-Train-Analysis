@@ -10,37 +10,37 @@ clc;
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% addpath - указывает, где искать подпрограммы (функции)
-% cd - возвращает полный путь текущей директории
+% addpath - ГіГЄГ Г§Г»ГўГ ГҐГІ, ГЈГ¤ГҐ ГЁГ±ГЄГ ГІГј ГЇГ®Г¤ГЇГ°Г®ГЈГ°Г Г¬Г¬Г» (ГґГіГ­ГЄГ¶ГЁГЁ)
+% cd - ГўГ®Г§ГўГ°Г Г№Г ГҐГІ ГЇГ®Г«Г­Г»Г© ГЇГіГІГј ГІГҐГЄГіГ№ГҐГ© Г¤ГЁГ°ГҐГЄГІГ®Г°ГЁГЁ
 addpath([cd,'/m']);
-% \\ или / нужно поставить, указывая путь
+% \\ ГЁГ«ГЁ / Г­ГіГ¦Г­Г® ГЇГ®Г±ГІГ ГўГЁГІГј, ГіГЄГ Г§Г»ГўГ Гї ГЇГіГІГј
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-InputFolder= [cd,'/091 - Control RS vitr E1_3 and E2_4 coherlet test envelope/']; 
-InputFolder= [cd,'/093 - PD left RS vitr E1_3 and E2_4 coherlet test envelope/'];
+InputFolder= [cd,'/Control/']; 
+%InputFolder= [cd,'/PD/'];
 
 %Method= 'FFT';
 Method= 'COMPLEX_MORLET';
 
 if strcmp(Method,'COMPLEX_MORLET'),
 	ListOfMetrics= {...
-		'AVERAGE',... это
+		'AVERAGE',... ГЅГІГ®
 		'MEDIAN',...
 		'SIGMA',...
-		'FLASH_POWER_AVERAGE',... это
+		'FLASH_POWER_AVERAGE',... ГЅГІГ®
 		'FLASH_POWER_MEDIAN',...
-		'FLASH_POWER_SIGMA',... +это
-		'FLASHES_PER_SEC',... это
-		'FLASH_FREQUENCY_AVERAGE',... это
+		'FLASH_POWER_SIGMA',... +ГЅГІГ®
+		'FLASHES_PER_SEC',... ГЅГІГ®
+		'FLASH_FREQUENCY_AVERAGE',... ГЅГІГ®
 		'FLASH_FREQUENCY_MEDIAN',...
-		'FLASH_FREQUENCY_SIGMA',... это
-		'FLASH_DURATION_AVERAGE',... это
+		'FLASH_FREQUENCY_SIGMA',... ГЅГІГ®
+		'FLASH_DURATION_AVERAGE',... ГЅГІГ®
 		'FLASH_DURATION_MEDIAN',...
-		'FLASH_DURATION_SIGMA',... это
-		'FLASH_PERIOD_QUANTITY_AVERAGE',... это
+		'FLASH_DURATION_SIGMA',... ГЅГІГ®
+		'FLASH_PERIOD_QUANTITY_AVERAGE',... ГЅГІГ®
 		'FLASH_PERIOD_QUANTITY_MEDIAN',...
-		'FLASH_PERIOD_QUANTITY_SIGMA',... это
-		'FLASH_BANDWIDTH_AVERAGE'... это
+		'FLASH_PERIOD_QUANTITY_SIGMA',... ГЅГІГ®
+		'FLASH_BANDWIDTH_AVERAGE'... ГЅГІГ®
 		'FLASH_BANDWIDTH_MEDIAN',...
 		'FLASH_BANDWIDTH_SIGMA',...
 		'FLASH_SUMM_OF_DURATIONS'...
@@ -50,10 +50,10 @@ if strcmp(Method,'COMPLEX_MORLET'),
 		};
 else
 	ListOfMetrics= {...
-		'AVERAGE',... это
-		'MAXIMUM',... это
-		'FREQUENCY',... это
-		'MEDIAN'... это
+		'AVERAGE',... ГЅГІГ®
+		'MAXIMUM',... ГЅГІГ®
+		'FREQUENCY',... ГЅГІГ®
+		'MEDIAN'... ГЅГІГ®
 		...'AVERAGE_div_MEDIAN',...
 		...'MAXIMUM_div_MEDIAN'...
 		...'HIST_AVERAGE',...
@@ -131,7 +131,7 @@ plot_histograms= false;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-SamplingRate0= 500; % Частота дискретизации
+SamplingRate0= 500; % Г—Г Г±ГІГ®ГІГ  Г¤ГЁГ±ГЄГ°ГҐГІГЁГ§Г Г¶ГЁГЁ
 
 X84_WindowLengthInMinutes= 1; % [minutes]
 
@@ -139,36 +139,36 @@ X84_WindowLengthInMinutes= 1; % [minutes]
  DecimationFactor= 4; %acs-beta 
  %DecimationFactor= 20; %acs-delta 
 
-Low_Freq= 0.1; % Порог нижнего значения частоты (НЕ на графиках)
+Low_Freq= 0.1; % ГЏГ®Г°Г®ГЈ Г­ГЁГ¦Г­ГҐГЈГ® Г§Г­Г Г·ГҐГ­ГЁГї Г·Г Г±ГІГ®ГІГ» (ГЌГ… Г­Г  ГЈГ°Г ГґГЁГЄГ Гµ)
 
-Step_Freq= 0.1; % Шаг по частоте для вычисления вейвлетов
+Step_Freq= 0.1; % ГГ ГЈ ГЇГ® Г·Г Г±ГІГ®ГІГҐ Г¤Г«Гї ГўГ»Г·ГЁГ±Г«ГҐГ­ГЁГї ГўГҐГ©ГўГ«ГҐГІГ®Гў
 
-Upper_Freq= 50; % Порог верхнего значения частоты (НЕ на графиках)
+Upper_Freq= 50; % ГЏГ®Г°Г®ГЈ ГўГҐГ°ГµГ­ГҐГЈГ® Г§Г­Г Г·ГҐГ­ГЁГї Г·Г Г±ГІГ®ГІГ» (ГЌГ… Г­Г  ГЈГ°Г ГґГЁГЄГ Гµ)
 
-% Этот параметр является половиной минимально допустимой полной
-% ширины вспышки (по частоте).
-% Это - ограничение на ширину вспышки вцелом!
-ThresholdOfHalfOfFullWidthOfFrequencyInHz= 0.0; % Гц
+% ГќГІГ®ГІ ГЇГ Г°Г Г¬ГҐГІГ° ГїГўГ«ГїГҐГІГ±Гї ГЇГ®Г«Г®ГўГЁГ­Г®Г© Г¬ГЁГ­ГЁГ¬Г Г«ГјГ­Г® Г¤Г®ГЇГіГ±ГІГЁГ¬Г®Г© ГЇГ®Г«Г­Г®Г©
+% ГёГЁГ°ГЁГ­Г» ГўГ±ГЇГ»ГёГЄГЁ (ГЇГ® Г·Г Г±ГІГ®ГІГҐ).
+% ГќГІГ® - Г®ГЈГ°Г Г­ГЁГ·ГҐГ­ГЁГҐ Г­Г  ГёГЁГ°ГЁГ­Гі ГўГ±ГЇГ»ГёГЄГЁ ГўГ¶ГҐГ«Г®Г¬!
+ThresholdOfHalfOfFullWidthOfFrequencyInHz= 0.0; % ГѓГ¶
 
-% Этот параметр является минимально допустимой полушириной
-% вспышки (по частоте), как справа, так и слева.
-% Это - ограничение на длину хвостиков вспышки!
-threshold_of_half_width_of_frequency_in_Hz= 0.0; % Гц
+% ГќГІГ®ГІ ГЇГ Г°Г Г¬ГҐГІГ° ГїГўГ«ГїГҐГІГ±Гї Г¬ГЁГ­ГЁГ¬Г Г«ГјГ­Г® Г¤Г®ГЇГіГ±ГІГЁГ¬Г®Г© ГЇГ®Г«ГіГёГЁГ°ГЁГ­Г®Г©
+% ГўГ±ГЇГ»ГёГЄГЁ (ГЇГ® Г·Г Г±ГІГ®ГІГҐ), ГЄГ ГЄ Г±ГЇГ°Г ГўГ , ГІГ ГЄ ГЁ Г±Г«ГҐГўГ .
+% ГќГІГ® - Г®ГЈГ°Г Г­ГЁГ·ГҐГ­ГЁГҐ Г­Г  Г¤Г«ГЁГ­Гі ГµГўГ®Г±ГІГЁГЄГ®Гў ГўГ±ГЇГ»ГёГЄГЁ!
+threshold_of_half_width_of_frequency_in_Hz= 0.0; % ГѓГ¶
 
-Number_of_periods= 0.1; % Число периодов (2019-02-28)
+Number_of_periods= 0.1; % Г—ГЁГ±Г«Г® ГЇГҐГ°ГЁГ®Г¤Г®Гў (2019-02-28)
 
-RequestedWindowLength= 3; % Длина окна при вычислении спектра
-TrailingZerosIntervalLength= 100; % Параметр сглаживания спектра
-SpectraWindowOverlap= '7 / 8'; % Размер перекрытия окна
+RequestedWindowLength= 3; % Г„Г«ГЁГ­Г  Г®ГЄГ­Г  ГЇГ°ГЁ ГўГ»Г·ГЁГ±Г«ГҐГ­ГЁГЁ Г±ГЇГҐГЄГІГ°Г 
+TrailingZerosIntervalLength= 100; % ГЏГ Г°Г Г¬ГҐГІГ° Г±ГЈГ«Г Г¦ГЁГўГ Г­ГЁГї Г±ГЇГҐГЄГІГ°Г 
+SpectraWindowOverlap= '7 / 8'; % ГђГ Г§Г¬ГҐГ° ГЇГҐГ°ГҐГЄГ°Г»ГІГЁГї Г®ГЄГ­Г 
 
-MinFreq= 2; % Минимальная частота (для графиков)
+MinFreq= 2; % ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г Гї Г·Г Г±ГІГ®ГІГ  (Г¤Г«Гї ГЈГ°Г ГґГЁГЄГ®Гў)
 
-MaxFreq= 48; % Максимальная частота (для графиков)
+MaxFreq= 48; % ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г Гї Г·Г Г±ГІГ®ГІГ  (Г¤Г«Гї ГЈГ°Г ГґГЁГЄГ®Гў)
 
-Fb= 1; % Параметр для вычисления вейвлетов
-Fc= 1; % Параметр для вычисления вейвлетов
+Fb= 1; % ГЏГ Г°Г Г¬ГҐГІГ° Г¤Г«Гї ГўГ»Г·ГЁГ±Г«ГҐГ­ГЁГї ГўГҐГ©ГўГ«ГҐГІГ®Гў
+Fc= 1; % ГЏГ Г°Г Г¬ГҐГІГ° Г¤Г«Гї ГўГ»Г·ГЁГ±Г«ГҐГ­ГЁГї ГўГҐГ©ГўГ«ГҐГІГ®Гў
 
-NotchFilterQ= 35; % Параметр режекторного фильтра (добротность)
+NotchFilterQ= 35; % ГЏГ Г°Г Г¬ГҐГІГ° Г°ГҐГ¦ГҐГЄГІГ®Г°Г­Г®ГЈГ® ГґГЁГ«ГјГІГ°Г  (Г¤Г®ГЎГ°Г®ГІГ­Г®Г±ГІГј)
 
 Kol_stolb= 25;
 
