@@ -10,16 +10,30 @@ We investigate the following wave train parameters: <b>wave train central freque
 You can read about our method here: <i>O.S. Sushkova, A.A. Morozov, A.V. Gabova, A.V. Karabanov. Investigation of Surface EMG and Acceleration Signals of Limbs’ Tremor in Parkinson’s Disease Patients Using the Method of Electrical Activity Analysis Based on Wave Trains // Advances in Artificial Intelligence: 16th Ibero-American Conference on AI, IBERAMIA 2018, Trujillo, Peru, November 13-16, 2018, Proceedings / G.R. Simari, F. Eduardo, F. Gutiérrez Segura, J.A. Rodríguez Melquiades (Eds.). – Springer Nature Switzerland AG, 2018. – V. 11238 LNAI. – P. 253-264. – DOI: 10.1007/978-3-030-03928-8_21, URL: https://link.springer.com/chapter/10.1007/978-3-030-03928-8_21</i> 
 
 Run the <b>eegemg_allmetrics2mat.m</b> to generate the files with wave train parameters of investigated data.
+
 In "InputFolder" value write your folder for analysis.
+
 In "Method" value you can choose "COMPLEX_MORLET" or "FFT" method for processing. For reproduce our method please choose "COMPLEX_MORLET" and in "ListOfMetrics" please choose "FLASHES_PER_SEC". 
+
 Please select "true" value in "plot_signals" if you need to plot signals;
+
 Please select "true" value in "calc_spectra" if you need to calculate spectra (this option is available if "FFT" method for processing is chosen);
+
 Please select "true" value in "plot_spectra" if you need to plot spectra;
+
 Please select "true" value in "calc_wavelets" if you need to calculate wavelets (this option is available if "COMPLEX_MORLET" method for processing is chosen);
+
 Please select "true" value in "plot_flash_diagrams" if you need to plot wave train flash diagrams;
+
 Please select "true" value in "save_figures" if you need to save figures;
+
 Please select "true" value in "save_figures" if you need to save figures;
+
 Please select "true" value in "save_flash_diagrams" if you need to save wave train diagrams (this option must have "true" value to reproducing our method);
+
 Please select "true" value in "save_wavelet_matrices" if you need to save wavelet matrices;
+
 Please select "true" value in "calc_histograms" if you need to calc histograms;
+
 Please select "true" value in "eliminate_beta" if you need to eliminate beta range;
+
