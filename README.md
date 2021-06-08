@@ -15,7 +15,7 @@ Run the <b>eegemg_allmetrics2mat.m</b> m-file to generate the files with wave tr
 
 %%%
 
-In "InputFolder" value please indicate your folder with data for analysis. This folder must contain a txt-file with a signal for analysis. 
+In "InputFolder" value please indicate your folder with data for analysis. This folder must contain a txt-file with a signal for analysis.
 
 %%%
 
@@ -53,6 +53,8 @@ Please note that the "ChannelNames" value contains the channel names that are pr
 
 In the "ChannelNamesSelectedByUser" value you need to choose what channel name you want to analyze. Please note that if you choose a channel with the "EMG" prefix, a program will preprocess your signal with a 60-240 Hz filter and calculate an envelope of the signal. For other channels, a filter of 2-240 Hz will be applied. For modifying this preprocessing option please correct this in the "preprocess_signal" m-file.
 
+At last when progam will finish the processing of files in your program you can repeat this procedure and process another files in another folder. For instance, you can process two folders with files and compare calculated data in next programs (calculate_auc_008_fast_phase_time_psi0.m and analyze_auc_fast_phase_time_psi0.m).
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Run the <b>calculate_auc_008_fast_phase_time_psi0.m</b> m-file to calculate AUC values based on the files calculated by previuos program (eegemg_allmetrics2mat.m).
@@ -77,17 +79,22 @@ The same procedure works for other types of AUC diagrams. You need to indicate r
 
 %%%
 
-At last step you need to save the calculated AUC values in the mat-file. Please write the special name of your calculated AUC values. For instancem "save(	['Table_AUC']".
+At last step you need to save the calculated AUC values in the mat-file. Please write the special name of your calculated AUC values. For instancem "save(	['Table_AUC_values_Frequencies']".
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+Run the <b>analyze_auc_fast_phase_time_psi0.m</b> m-file to analyse calculated AUC values and plot 2D AUC diagrams.
 
+In "FileName" value please indicate the file name with data for analysis. This mat-file must contain AUC values calculated by previuos program (calculate_auc_008_fast_phase_time_psi0.m).
 
+Next you need to choose the dimension of the AUC diagram.
+If in previous program you calculated AUC values for Frequency AUC diagram, you need to choose "Freq" value.    
+If in previous program you calculated AUC values for Amplitude AUC diagram, you need to choose "Ampl" value.  
+If in previous program you calculated AUC values for Duration AUC diagram, you need to choose "Durat" value.  
+If in previous program you calculated AUC values for Duration in Periods AUC diagram, you need to choose "Durat_in_Periods" value.  
+If in previous program you calculated AUC values for Bandwidth AUC diagram, you need to choose "Bandwidth" value.  
+If in previous program you calculated AUC values for Phase AUC diagram, you need to choose "Phase" value.  
+If in previous program you calculated AUC values for Time AUC diagram, you need to choose "Time" value.  
+If in previous program you calculated AUC values for Psi0 AUC diagram, you need to choose "Psi0" value.  
 
-
-
-
-
-
-
-
+That's all
