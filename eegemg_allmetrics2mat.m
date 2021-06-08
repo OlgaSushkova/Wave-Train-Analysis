@@ -108,11 +108,11 @@ plot_flash_diagrams= false;
 save_figures= false;
 % save_figures= true;
 
- save_flash_diagrams= false;
-%save_flash_diagrams= true;
+%save_flash_diagrams= false;
+save_flash_diagrams= true;
 
 save_wavelet_matrices= false;
-save_wavelet_matrices= true;
+%save_wavelet_matrices= true;
 
 calc_histograms= false;
 %calc_histograms= true;
