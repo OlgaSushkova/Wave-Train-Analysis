@@ -54,16 +54,32 @@ Please note that the "ChannelNames" value contains the channel names that are pr
 In the "ChannelNamesSelectedByUser" value you need to choose what channel name you want to analyze. Please note that if you choose a channel with the "EMG" prefix, a program will preprocess your signal with a 60-240 Hz filter and calculate an envelope of the signal. For other channels, a filter of 2-240 Hz will be applied. For modifying this preprocessing option please correct this in the "preprocess_signal" m-file.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 Run the <b>calculate_auc_008_fast_phase_time_psi0.m</b> m-file to calculate AUC values based on the files calculated by previuos program (eegemg_allmetrics2mat.m).
 
 In "Names" value please indicate two your folders with data for analysis. These folders must contain a mat-files with parameters of wave trains calculated by previuos program (eegemg_allmetrics2mat.m). Using calculate_auc_008_fast_phase_time_psi0.m you can compare two datasets in these two folders.
 
 In the "CName" value you need to choose what channel name you want to analyze. This name must be the same as in previous program (eegemg_allmetrics2mat.m).
 
+%%%
+
 Please select the "true" value in "calc_hole" value if you need to calculate only AUC values, where the statistical significant differences are observed.
 
 Please select the "true" value in "plot_roc" value if you need to plot ROC curve.
 
+%%%
+
+Then you need to choose what type of AUC diagram you need to calculate.
+If you need to calculate the Frequency AUC diagram, please indicate the range of minimal values of frequencies in "MinFreq" value. For instance "MinFreq= [1:1:50]" and please indicate the range of maximal values of frequencies in "MaxFreq" value. For instance "MaxFreq= [1:1:50]";
+Other values (MinFreq, MaxFreq, MinAmpl, MaxAmpl, MinDurat, MaxDurat, MinDurat_in_Periods, MaxDurat_in_Periods, MinBandwidth, MaxBandwidth, MinPhase, MaxPhase, MinTime, MaxTime,MinPsi0,MaxPsi0) please left as constants. For instance, "MinAmpl = 0";
+
+The same procedure works for other types of AUC diagrams. You need to indicate ranges of minimal amd maximal values for the AUC diagram, which you want to calculate. Other values you need to left as constants.
+
+%%%
+
+At last step you need to save the calculated AUC values in the mat-file. Please write the special name of your calculated AUC values. For instancem "save(	['Table_AUC']".
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
