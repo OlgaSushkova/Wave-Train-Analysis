@@ -15,42 +15,42 @@ Run the <b>eegemg_allmetrics2mat.m</b> m-file to generate the files with wave tr
 
 %%%
 
-In "InputFolder" value please indicate your folder with data for analysis. This folder must contain a txt-file with signal for analysis. 
+In "InputFolder" value please indicate your folder with data for analysis. This folder must contain a txt-file with a signal for analysis. 
 
 %%%
 
-In "Method" value you can choose "COMPLEX_MORLET" or "FFT" method for processing. For reproduce our method please choose "COMPLEX_MORLET" and in "ListOfMetrics" please choose "FLASHES_PER_SEC". 
+In the "Method" value you can choose the "COMPLEX_MORLET" or "FFT" method for processing. To reproduce our method please choose "COMPLEX_MORLET" and in "ListOfMetrics" please choose "FLASHES_PER_SEC". 
 
 %%%
 
-Please select "true" value in "plot_signals" if you need to plot signals;
+Please select the "true" value in "plot_signals" if you need to plot signals;
 
-Please select "true" value in "calc_spectra" if you need to calculate spectra (this option is available if "FFT" method for processing is chosen);
+Please select the "true" value in "calc_spectra" if you need to calculate spectra (this option is available if the "FFT" method for processing is chosen);
 
-Please select "true" value in "plot_spectra" if you need to plot spectra;
+Please select the "true" value in "plot_spectra" if you need to plot spectra;
 
-Please select "true" value in "calc_wavelets" if you need to calculate wavelets (this option is available if "COMPLEX_MORLET" method for processing is chosen);
+Please select the "true" value in "calc_wavelets" if you need to calculate wavelets (this option is available if the "COMPLEX_MORLET" method for processing is chosen);
 
-Please select "true" value in "plot_flash_diagrams" if you need to plot wave train flash diagrams;
+Please select the "true" value in "plot_flash_diagrams" if you need to plot wave train flash diagrams;
 
-Please select "true" value in "save_figures" if you need to save figures;
+Please select the "true" value in "save_figures" if you need to save figures;
 
-Please select "true" value in "save_figures" if you need to save figures;
+Please select the "true" value in "save_figures" if you need to save figures;
 
-Please select "true" value in "save_flash_diagrams" if you need to save wave train diagrams (this option must have "true" value to reproducing our method);
+Please select the "true" value in "save_flash_diagrams" if you need to save wave train diagrams (this option must have "true" value to reproducing our method);
 
-Please select "true" value in "save_wavelet_matrices" if you need to save wavelet matrices;
+Please select the "true" value in "save_wavelet_matrices" if you need to save wavelet matrices;
 
-Please select "true" value in "calc_histograms" if you need to calc histograms;
+Please select the "true" value in "calc_histograms" if you need to calc histograms;
 
-Please select "true" value in "eliminate_beta" if you need to eliminate beta range;
+Please select the "true" value in "eliminate_beta" if you need to eliminate the beta range;
 
-Please select "true" value in "plot_histograms" if you need to plot histograms.
+Please select the "true" value in "plot_histograms" if you need to plot histograms.
 
 %%%
 
-Please note that "ChannelNames" value contains the channel names that are presented in your file for analysis.
+Please note that the "ChannelNames" value contains the channel names that are presented in your file for analysis.
 
-In "ChannelNamesSelectedByUser" value you need to choose what channel name you want to analyse. Please note that if you choose a channel with "EMG" prefics, a program will preprocess your signal with 60-240 Hz filter and calculate an envelope of the signal. For other channels a filter 2-240 Hz will be applied. For modifing this preprocessing option please corrrect this in "preprocess_signal" m-fale.
+In the "ChannelNamesSelectedByUser" value you need to choose what channel name you want to analyze. Please note that if you choose a channel with the "EMG" prefix, a program will preprocess your signal with a 60-240 Hz filter and calculate an envelope of the signal. For other channels, a filter of 2-240 Hz will be applied. For modifying this preprocessing option please correct this in the "preprocess_signal" m-file.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
