@@ -34,7 +34,7 @@ Please select the "true" value in "plot_spectra" value if you need to plot spect
 Please select the "true" value in "calc_wavelets" value if you need to calculate wavelets (this option is available if the "COMPLEX_MORLET" method for processing is chosen);
 
 Please select the "true" value in "plot_wavelets" value if you need to plot wavelets;<br>
-<IMG SRC="https://sun9-35.userapi.com/impg/UzGdCvuoz52mbCoHbNIVQ9j4cc2tIPVc04aoHA/rfYhNPoSdIE.jpg?size=1920x903&quality=96&sign=efb362c9412f0a8c10197ac924316dca&type=albumtype=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center> 
+<IMG SRC="https://sun9-35.userapi.com/impg/UzGdCvuoz52mbCoHbNIVQ9j4cc2tIPVc04aoHA/rfYhNPoSdIE.jpg?size=1920x903&quality=96&sign=efb362c9412f0a8c10197ac924316dca&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center> 
   
 Please select the "true" value in "plot_flash_diagrams" value if you need to plot wave train flash diagrams;
 
@@ -91,13 +91,20 @@ Run the <b>analyze_auc_fast_phase_time_psi0.m</b> m-file to analyse calculated A
 In "FileName" value please indicate the file name with data for analysis. This mat-file must contain AUC values calculated by previuos program (calculate_auc_008_fast_phase_time_psi0.m).
 
 Next you need to choose the dimension of the AUC diagram.
-If in previous program you calculated AUC values for Frequency AUC diagram, you need to choose "Freq" value.    
-If in previous program you calculated AUC values for Amplitude AUC diagram, you need to choose "Ampl" value.  
+If in previous program you calculated AUC values for Frequency AUC diagram, you need to choose "Freq" value.<br>
+<IMG SRC="https://sun9-14.userapi.com/impg/Aq639LipA1-lk7CR7PkLd9tIF6cYA7ZEc6EAEA/qlIFu_wCyN0.jpg?size=1920x903&quality=96&sign=990e40d05e42dab6277b1d46e64c1014&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>     
+If in previous program you calculated AUC values for Amplitude AUC diagram, you need to choose "Ampl" value.<br>
+<IMG SRC="https://sun9-16.userapi.com/impg/BIUDJRwGxAKXMmuCbykOSClTihvMBJ_UCXFLmA/ikgWR5Spuwk.jpg?size=1716x892&quality=96&sign=8c01a8eb2a4125de370fb8257f2a4461&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
 If in previous program you calculated AUC values for Duration AUC diagram, you need to choose "Durat" value.  
-If in previous program you calculated AUC values for Duration in Periods AUC diagram, you need to choose "Durat_in_Periods" value.  
-If in previous program you calculated AUC values for Bandwidth AUC diagram, you need to choose "Bandwidth" value.  
-If in previous program you calculated AUC values for Phase AUC diagram, you need to choose "Phase" value.  
-If in previous program you calculated AUC values for Time AUC diagram, you need to choose "Time" value.  
-If in previous program you calculated AUC values for Psi0 AUC diagram, you need to choose "Psi0" value.  
+If in previous program you calculated AUC values for Duration in Periods AUC diagram, you need to choose "Durat_in_Periods" value.<br>
+<IMG SRC="https://sun9-18.userapi.com/impg/HTQxjQ4tYPczFHitMHT_a_n31iwvW4oTl57WFw/irbtLua-1dw.jpg?size=1680x892&quality=96&sign=8c412e40141ab83610e057ad4250cdd1&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
+If in previous program you calculated AUC values for Bandwidth AUC diagram, you need to choose "Bandwidth" value.<br>
+<IMG SRC="https://sun9-26.userapi.com/impg/W7AFvZcJVW2McQAhIFbej5e0L5wqeev0lQ7HvQ/Kh4LbXGReZQ.jpg?size=1680x892&quality=96&sign=a14752d4cbc821830d9f6a063e759da8&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
+If in previous program you calculated AUC values for Phase AUC diagram, you need to choose "Phase" value.<br>
+<IMG SRC="https://sun9-35.userapi.com/impg/UzGdCvuoz52mbCoHbNIVQ9j4cc2tIPVc04aoHA/rfYhNPoSdIE.jpg?size=1920x903&quality=96&sign=efb362c9412f0a8c10197ac924316dca&type=albumtype=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
+If in previous program you calculated AUC values for Time AUC diagram, you need to choose "Time" value.<br>
+<IMG SRC="https://sun9-35.userapi.com/impg/UzGdCvuoz52mbCoHbNIVQ9j4cc2tIPVc04aoHA/rfYhNPoSdIE.jpg?size=1920x903&quality=96&sign=efb362c9412f0a8c10197ac924316dca&type=albumtype=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
+If in previous program you calculated AUC values for Psi0 AUC diagram, you need to choose "Psi0" value.<br>
+<IMG SRC="https://sun9-35.userapi.com/impg/UzGdCvuoz52mbCoHbNIVQ9j4cc2tIPVc04aoHA/rfYhNPoSdIE.jpg?size=1920x903&quality=96&sign=efb362c9412f0a8c10197ac924316dca&type=albumtype=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
 
 That's all
