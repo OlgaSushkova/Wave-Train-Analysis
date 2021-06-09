@@ -33,9 +33,10 @@ Please select the "true" value in "plot_spectra" value if you need to plot spect
 
 Please select the "true" value in "calc_wavelets" value if you need to calculate wavelets (this option is available if the "COMPLEX_MORLET" method for processing is chosen);
 
+Please select the "true" value in "plot_wavelets" value if you need to plot wavelets;<br>
+<IMG SRC="https://sun9-35.userapi.com/impg/UzGdCvuoz52mbCoHbNIVQ9j4cc2tIPVc04aoHA/rfYhNPoSdIE.jpg?size=1920x903&quality=96&sign=efb362c9412f0a8c10197ac924316dca&type=albumtype=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center> 
+  
 Please select the "true" value in "plot_flash_diagrams" value if you need to plot wave train flash diagrams;
-
-Please select the "true" value in "save_figures" value if you need to save figures;
 
 Please select the "true" value in "save_figures" value if you need to save figures;
 
