@@ -43,7 +43,7 @@ Please select the "true" value in the "plot_flash_diagrams" value if you need to
 
 Please select the "true" value in the "save_figures" value if you need to save figures;
 
-Please select the "true" value in the "save_flash_diagrams" value if you need to save wave train diagrams (this option must have "true" value to reproducing our method);
+Please select the "true" value in the "save_flash_diagrams" value if you need to save wave train diagrams (this option must have a "true" value to reproducing our method);
 
 Please select the "true" value in the "save_wavelet_matrices" value if you need to save wavelet matrices;
 
@@ -59,13 +59,13 @@ Please note that the "ChannelNames" value contains the channel names that are pr
 
 In the "ChannelNamesSelectedByUser" value you need to choose what channel name you want to analyze. Please note that if you choose a channel with the "EMG" prefix, a program will preprocess your signal with a 60-240 Hz filter and calculate an envelope of the signal. For other channels, a filter of 2-240 Hz will be applied. For modifying this preprocessing option please correct this in the "preprocess_signal" m-file.
 
-At last, when the program will finish the processing of files in your program you can repeat this procedure and process another files in other folder. For instance, you can process two folders with files and compare calculated data in next programs (calculate_auc_008_fast_phase_time_psi0.m and analyze_auc_fast_phase_time_psi0.m).
+At last, when the program will finish the processing of files in your program you can repeat this procedure and process other files in another folder. For instance, you can process two folders with files and compare calculated data in next programs (calculate_auc_008_fast_phase_time_psi0.m and analyze_auc_fast_phase_time_psi0.m).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Run the <b>calculate_auc_008_fast_phase_time_psi0.m</b> m-file to calculate AUC values based on the files calculated by the previous program (eegemg_allmetrics2mat.m).
 
-In the "Names" value please indicate two your folders with data for analysis. These folders must contain mat-files with parameters of wave trains calculated by previuos program (eegemg_allmetrics2mat.m). Using calculate_auc_008_fast_phase_time_psi0.m you can compare two datasets in these two folders.
+In the "Names" value please indicate two your folders with data for analysis. These folders must contain mat-files with parameters of wave trains calculated by the previous program (eegemg_allmetrics2mat.m). Using calculate_auc_008_fast_phase_time_psi0.m you can compare two datasets in these two folders.
 
 In the "CName" value you need to choose what channel name you want to analyze. This name must be the same as in the previous program (eegemg_allmetrics2mat.m).
 
@@ -94,24 +94,24 @@ Run the <b>analyze_auc_fast_phase_time_psi0.m</b> m-file to analyze calculated A
 In the "FileName" value please indicate the file name with data for analysis. This mat-file must contain AUC values calculated by previous program (calculate_auc_008_fast_phase_time_psi0.m).
 
 Next, you need to choose the dimension of the AUC diagram.
-If in the previous program you calculated AUC values for the <b>Frequency AUC diagram</b>, you need to choose "Freq" value.<br>
+If in the previous program you calculated AUC values for the <b>Frequency AUC diagram</b>, you need to choose the "Freq" value.<br>
 <IMG SRC="https://sun9-41.userapi.com/impg/YOYo4wShwcrKKrh9XSIXQ9DaGrZpO4jGUqxH9Q/K9EEyTTXug4.jpg?size=1680x892&quality=96&sign=c9a6ebd42905365c5c98be8f551679f9&type=album" alt="EMG" title="EMG" BORDER="1" WIDTH=530 align=center>     
   
-If in the previous program you calculated AUC values for the <b>Amplitude AUC diagram</b>, you need to choose "Ampl" value.<br>
+If in the previous program you calculated AUC values for the <b>Amplitude AUC diagram</b>, you need to choose the "Ampl" value.<br>
 <IMG SRC="https://sun9-16.userapi.com/impg/BIUDJRwGxAKXMmuCbykOSClTihvMBJ_UCXFLmA/ikgWR5Spuwk.jpg?size=1716x892&quality=96&sign=8c01a8eb2a4125de370fb8257f2a4461&type=album" alt="EMG" title="EMG" BORDER="1" WIDTH=530 align=center>   
   
-If in the previous program you calculated AUC values for the <b>Duration AUC diagram</b>, you need to choose "Durat" value.
+If in the previous program you calculated AUC values for the <b>Duration AUC diagram</b>, you need to choose the "Durat" value.
 
-If in the previous program you calculated AUC values for the <b>Duration in Periods AUC diagram</b>, you need to choose "Durat_in_Periods" value.<br>
+If in the previous program you calculated AUC values for the <b>Duration in Periods AUC diagram</b>, you need to choose the "Durat_in_Periods" value.<br>
 <IMG SRC="https://sun9-18.userapi.com/impg/HTQxjQ4tYPczFHitMHT_a_n31iwvW4oTl57WFw/irbtLua-1dw.jpg?size=1680x892&quality=96&sign=8c412e40141ab83610e057ad4250cdd1&type=album" alt="EMG" title="EMG" BORDER="1" WIDTH=530 align=center>   
   
-If in the previous program you calculated AUC values for the <b>Bandwidth AUC diagram</b>, you need to choose "Bandwidth" value.<br>
+If in the previous program you calculated AUC values for the <b>Bandwidth AUC diagram</b>, you need to choose the "Bandwidth" value.<br>
 <IMG SRC="https://sun9-26.userapi.com/impg/W7AFvZcJVW2McQAhIFbej5e0L5wqeev0lQ7HvQ/Kh4LbXGReZQ.jpg?size=1680x892&quality=96&sign=a14752d4cbc821830d9f6a063e759da8&type=album" alt="EMG" title="EMG" BORDER="1" WIDTH=530 align=center>   
   
-If in the previous program you calculated AUC values for the <b>Phase AUC diagram</b>, you need to choose "Phase" value.
+If in the previous program you calculated AUC values for the <b>Phase AUC diagram</b>, you need to choose the "Phase" value.
   
-If in the previous program you calculated AUC values for the <b>Time AUC diagram</b>, you need to choose "Time" value. 
+If in the previous program you calculated AUC values for the <b>Time AUC diagram</b>, you need to choose the "Time" value. 
   
-If in the previous program you calculated AUC values for the <b>Psi0 AUC diagram</b>, you need to choose "Psi0" value.  
+If in the previous program you calculated AUC values for the <b>Psi0 AUC diagram</b>, you need to choose the "Psi0" value.  
 
 That's all
