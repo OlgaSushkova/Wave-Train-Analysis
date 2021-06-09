@@ -91,19 +91,22 @@ Run the <b>analyze_auc_fast_phase_time_psi0.m</b> m-file to analyse calculated A
 In "FileName" value please indicate the file name with data for analysis. This mat-file must contain AUC values calculated by previuos program (calculate_auc_008_fast_phase_time_psi0.m).
 
 Next you need to choose the dimension of the AUC diagram.
-If in previous program you calculated AUC values for Frequency AUC diagram, you need to choose "Freq" value.<br>
+If in previous program you calculated AUC values for <b>Frequency AUC diagram</b>, you need to choose "Freq" value.<br>
 <IMG SRC="https://sun9-41.userapi.com/impg/YOYo4wShwcrKKrh9XSIXQ9DaGrZpO4jGUqxH9Q/K9EEyTTXug4.jpg?size=1680x892&quality=96&sign=c9a6ebd42905365c5c98be8f551679f9&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>     
-If in previous program you calculated AUC values for Amplitude AUC diagram, you need to choose "Ampl" value.<br>
+  
+If in previous program you calculated AUC values for <b>Amplitude AUC diagram</b>, you need to choose "Ampl" value.<br>
 <IMG SRC="https://sun9-16.userapi.com/impg/BIUDJRwGxAKXMmuCbykOSClTihvMBJ_UCXFLmA/ikgWR5Spuwk.jpg?size=1716x892&quality=96&sign=8c01a8eb2a4125de370fb8257f2a4461&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
-If in previous program you calculated AUC values for Duration AUC diagram, you need to choose "Durat" value.  
-If in previous program you calculated AUC values for Duration in Periods AUC diagram, you need to choose "Durat_in_Periods" value.<br>
+  
+If in previous program you calculated AUC values for <b>Duration AUC diagram</b>, you need to choose "Durat" value.
+
+If in previous program you calculated AUC values for <b>Duration in Periods AUC diagram</b>, you need to choose "Durat_in_Periods" value.<br>
 <IMG SRC="https://sun9-18.userapi.com/impg/HTQxjQ4tYPczFHitMHT_a_n31iwvW4oTl57WFw/irbtLua-1dw.jpg?size=1680x892&quality=96&sign=8c412e40141ab83610e057ad4250cdd1&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
-If in previous program you calculated AUC values for Bandwidth AUC diagram, you need to choose "Bandwidth" value.<br>
+If in previous program you calculated AUC values for <b>Bandwidth AUC diagram</b>, you need to choose "Bandwidth" value.<br>
 <IMG SRC="https://sun9-26.userapi.com/impg/W7AFvZcJVW2McQAhIFbej5e0L5wqeev0lQ7HvQ/Kh4LbXGReZQ.jpg?size=1680x892&quality=96&sign=a14752d4cbc821830d9f6a063e759da8&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
-If in previous program you calculated AUC values for Phase AUC diagram, you need to choose "Phase" value.
+If in previous program you calculated AUC values for <b>Phase AUC diagram</b>, you need to choose "Phase" value.
   
-If in previous program you calculated AUC values for Time AUC diagram, you need to choose "Time" value. 
+If in previous program you calculated AUC values for <b>Time AUC diagram</b>, you need to choose "Time" value. 
   
-If in previous program you calculated AUC values for Psi0 AUC diagram, you need to choose "Psi0" value.  
+If in previous program you calculated AUC values for <b>Psi0 AUC diagram</b>, you need to choose "Psi0" value.  
 
 That's all
