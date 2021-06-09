@@ -100,11 +100,8 @@ If in previous program you calculated AUC values for Duration in Periods AUC dia
 <IMG SRC="https://sun9-18.userapi.com/impg/HTQxjQ4tYPczFHitMHT_a_n31iwvW4oTl57WFw/irbtLua-1dw.jpg?size=1680x892&quality=96&sign=8c412e40141ab83610e057ad4250cdd1&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
 If in previous program you calculated AUC values for Bandwidth AUC diagram, you need to choose "Bandwidth" value.<br>
 <IMG SRC="https://sun9-26.userapi.com/impg/W7AFvZcJVW2McQAhIFbej5e0L5wqeev0lQ7HvQ/Kh4LbXGReZQ.jpg?size=1680x892&quality=96&sign=a14752d4cbc821830d9f6a063e759da8&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
-If in previous program you calculated AUC values for Phase AUC diagram, you need to choose "Phase" value.<br>
-<IMG SRC="https://sun9-35.userapi.com/impg/UzGdCvuoz52mbCoHbNIVQ9j4cc2tIPVc04aoHA/rfYhNPoSdIE.jpg?size=1920x903&quality=96&sign=efb362c9412f0a8c10197ac924316dca&type=albumtype=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
-If in previous program you calculated AUC values for Time AUC diagram, you need to choose "Time" value.<br>
-<IMG SRC="https://sun9-21.userapi.com/impg/uunmpcHvxuP_aHKY1r4t-rxN6vI8yxrhD-M8iA/DSDgE_aiRhs.jpg?size=1919x1027&quality=96&sign=985cbf63ac878c0f6508914827963574&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
-If in previous program you calculated AUC values for Psi0 AUC diagram, you need to choose "Psi0" value.<br>
-<IMG SRC="https://sun9-58.userapi.com/impg/e68a_nKUs_m2JdM0qVFODZBSgyuDun35fnvHow/0A-Uy_aYC0w.jpg?size=1919x1041&quality=96&sign=342255a5dc725781a2c01c2d188a844b&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
+If in previous program you calculated AUC values for Phase AUC diagram, you need to choose "Phase" value.
+If in previous program you calculated AUC values for Time AUC diagram, you need to choose "Time" value. 
+If in previous program you calculated AUC values for Psi0 AUC diagram, you need to choose "Psi0" value.  
 
 That's all
