@@ -92,7 +92,7 @@ In "FileName" value please indicate the file name with data for analysis. This m
 
 Next you need to choose the dimension of the AUC diagram.
 If in previous program you calculated AUC values for Frequency AUC diagram, you need to choose "Freq" value.<br>
-<IMG SRC="https://sun9-14.userapi.com/impg/Aq639LipA1-lk7CR7PkLd9tIF6cYA7ZEc6EAEA/qlIFu_wCyN0.jpg?size=1920x903&quality=96&sign=990e40d05e42dab6277b1d46e64c1014&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>     
+<IMG SRC="https://sun9-41.userapi.com/impg/YOYo4wShwcrKKrh9XSIXQ9DaGrZpO4jGUqxH9Q/K9EEyTTXug4.jpg?size=1680x892&quality=96&sign=c9a6ebd42905365c5c98be8f551679f9&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>     
 If in previous program you calculated AUC values for Amplitude AUC diagram, you need to choose "Ampl" value.<br>
 <IMG SRC="https://sun9-16.userapi.com/impg/BIUDJRwGxAKXMmuCbykOSClTihvMBJ_UCXFLmA/ikgWR5Spuwk.jpg?size=1716x892&quality=96&sign=8c01a8eb2a4125de370fb8257f2a4461&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
 If in previous program you calculated AUC values for Duration AUC diagram, you need to choose "Durat" value.  
