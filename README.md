@@ -103,8 +103,8 @@ If in previous program you calculated AUC values for Bandwidth AUC diagram, you 
 If in previous program you calculated AUC values for Phase AUC diagram, you need to choose "Phase" value.<br>
 <IMG SRC="https://sun9-35.userapi.com/impg/UzGdCvuoz52mbCoHbNIVQ9j4cc2tIPVc04aoHA/rfYhNPoSdIE.jpg?size=1920x903&quality=96&sign=efb362c9412f0a8c10197ac924316dca&type=albumtype=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
 If in previous program you calculated AUC values for Time AUC diagram, you need to choose "Time" value.<br>
-<IMG SRC="https://sun9-35.userapi.com/impg/UzGdCvuoz52mbCoHbNIVQ9j4cc2tIPVc04aoHA/rfYhNPoSdIE.jpg?size=1920x903&quality=96&sign=efb362c9412f0a8c10197ac924316dca&type=albumtype=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
+<IMG SRC="https://sun9-21.userapi.com/impg/uunmpcHvxuP_aHKY1r4t-rxN6vI8yxrhD-M8iA/DSDgE_aiRhs.jpg?size=1919x1027&quality=96&sign=985cbf63ac878c0f6508914827963574&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
 If in previous program you calculated AUC values for Psi0 AUC diagram, you need to choose "Psi0" value.<br>
-<IMG SRC="https://sun9-35.userapi.com/impg/UzGdCvuoz52mbCoHbNIVQ9j4cc2tIPVc04aoHA/rfYhNPoSdIE.jpg?size=1920x903&quality=96&sign=efb362c9412f0a8c10197ac924316dca&type=albumtype=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
+<IMG SRC="https://sun9-58.userapi.com/impg/e68a_nKUs_m2JdM0qVFODZBSgyuDun35fnvHow/0A-Uy_aYC0w.jpg?size=1919x1041&quality=96&sign=342255a5dc725781a2c01c2d188a844b&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
 
 That's all
