@@ -101,7 +101,9 @@ If in previous program you calculated AUC values for Duration in Periods AUC dia
 If in previous program you calculated AUC values for Bandwidth AUC diagram, you need to choose "Bandwidth" value.<br>
 <IMG SRC="https://sun9-26.userapi.com/impg/W7AFvZcJVW2McQAhIFbej5e0L5wqeev0lQ7HvQ/Kh4LbXGReZQ.jpg?size=1680x892&quality=96&sign=a14752d4cbc821830d9f6a063e759da8&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>   
 If in previous program you calculated AUC values for Phase AUC diagram, you need to choose "Phase" value.
+  
 If in previous program you calculated AUC values for Time AUC diagram, you need to choose "Time" value. 
+  
 If in previous program you calculated AUC values for Psi0 AUC diagram, you need to choose "Psi0" value.  
 
 That's all
