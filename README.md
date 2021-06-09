@@ -23,8 +23,8 @@ In the "Method" value you can choose the "COMPLEX_MORLET" or "FFT" method for pr
 
 %%%
 
-Please select the "true" value in "plot_signals" value if you need to plot signals;
-<IMG SRC="https://sun9-19.userapi.com/impg/veVnrzSU8t1HUay60pA82jm-ckwDEcuaSuytsw/fRXeC8SlrD0.jpg?size=1920x903&quality=96&sign=2ce52b994f9484da9116186eb0350578&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=230 align=center>
+Please select the "true" value in "plot_signals" value if you need to plot signals;<br>
+<IMG SRC="https://sun9-19.userapi.com/impg/veVnrzSU8t1HUay60pA82jm-ckwDEcuaSuytsw/fRXeC8SlrD0.jpg?size=1920x903&quality=96&sign=2ce52b994f9484da9116186eb0350578&type=album" alt="EMG" title="EMG" BORDER="1"   WIDTH=530 align=center>
 
 
 Please select the "true" value in "calc_spectra" value if you need to calculate spectra (this option is available if the "FFT" method for processing is chosen);
