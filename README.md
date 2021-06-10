@@ -81,7 +81,7 @@ Please select the "true" value in the "plot_roc" value if you need to plot the R
 
 Then you need to choose what type of AUC diagram you need to calculate.
 If you need to calculate the Frequency AUC diagram, please indicate the range of minimal values of frequencies in the  "MinFreq" value. For instance "MinFreq= [1:1:50]" and please indicate the range of maximal values of frequencies in the "MaxFreq" value. For instance the "MaxFreq= [1:1:50]";
-Other values (MinFreq, MaxFreq, MinAmpl, MaxAmpl, MinDurat, MaxDurat, MinDurat_in_Periods, MaxDurat_in_Periods, MinBandwidth, MaxBandwidth, MinPhase, MaxPhase, MinTime, MaxTime,MinPsi0,MaxPsi0) please left as constants. For instance, the "MinAmpl = 0";
+Other values (MinFreq, MaxFreq, MinAmpl, MaxAmpl, MinDurat, MaxDurat, MinDurat_in_Periods, MaxDurat_in_Periods, MinBandwidth, MaxBandwidth) please left as constants. For instance, the "MinAmpl = 0";
 
 The same procedure works for other types of AUC diagrams. You need to indicate ranges of minimal and maximal values for the AUC diagram, which you want to calculate. Other values you need to leave as constants.
 
@@ -109,11 +109,5 @@ If in the previous program you calculated AUC values for the <b>Duration in Peri
   
 If in the previous program you calculated AUC values for the <b>Bandwidth AUC diagram</b>, you need to choose the "Bandwidth" value.<br>
 <IMG SRC="https://sun9-26.userapi.com/impg/W7AFvZcJVW2McQAhIFbej5e0L5wqeev0lQ7HvQ/Kh4LbXGReZQ.jpg?size=1680x892&quality=96&sign=a14752d4cbc821830d9f6a063e759da8&type=album" alt="EMG" title="EMG" BORDER="1" WIDTH=530 align=center>   
-  
-If in the previous program you calculated AUC values for the <b>Phase AUC diagram</b>, you need to choose the "Phase" value.
-  
-If in the previous program you calculated AUC values for the <b>Time AUC diagram</b>, you need to choose the "Time" value. 
-  
-If in the previous program you calculated AUC values for the <b>Psi0 AUC diagram</b>, you need to choose the "Psi0" value.  
 
 That's all
