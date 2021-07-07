@@ -17,6 +17,7 @@ The code of the program for the wave train electrical activity analysis was regi
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 Please note the following code does not operate in Matlab 2013b version!
 
 Run the <b>eegemg_allmetrics2mat.m</b> m-file to generate the files with wave train parameters of investigated data.
